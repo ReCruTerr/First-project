@@ -1,0 +1,412 @@
+@font-face {
+   font-family: Montserrat-SemiBold;
+   src: url(/fonts/Montserrat-SemiBold.ttf);
+}
+
+.container {
+   max-width: 1920px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.containerM {
+   max-width: 1920px;
+   width: 100%;
+   height: 675px;
+   display: flex;
+   font-size: 20px;
+   font-family: Montserrat-SemiBold;
+   background-color: #FAFAFA;
+   justify-content: center;
+}
+
+.container_texts {
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+}
+
+.list {
+   display: flex;
+   justify-content: center;
+   max-width: 650px;
+   width: 100%;
+   gap: 5vh;
+}
+
+.list__item {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   max-width: 200px;
+   width: 100%;
+   text-align: center;
+}
+
+.logo {
+   text-align: center;
+}
+
+.container_texts h1 {
+   text-transform: uppercase;
+   text-align: left;
+
+}
+
+.container_descr {
+   display: flex
+}
+
+#predl {
+   color: #0ECCDD;
+
+}
+
+.cont_2 {
+   width: 900px;
+   z-index: 1;
+}
+
+.contImg {
+   position: relative;
+
+}
+
+.contImg>img {
+   position: absolute;
+   right: 0;
+}
+
+.secOf2 {
+   font-weight: 400;
+   font-size: 25px;
+
+}
+
+.thirdOf2 {
+   display: flex;
+   justify-content: space-between;
+}
+
+#smallText {
+   position: relative;
+   font-weight: 100;
+   bottom: 15px;
+   font-size: 16px;
+}
+
+.btnRas {
+   height: 56px;
+   width: 296px;
+   border-radius: 7px;
+   position: relative;
+   top: 20px;
+   border: none;
+   background-color: #0ECCDD;
+}
+
+.btnRas>h3 {
+   color: white;
+   font-size: 30px;
+   position: relative;
+   bottom: 16px;
+}
+
+.paint {
+   position: relative;
+   bottom: 420px;
+   left: 710px;
+}
+
+
+
+.facilities {
+   font-family: Montserrat-SemiBold;
+   padding: 40px;
+   border-radius: 16px;
+   box-shadow: -2px 4px 45px 14px rgba(34, 60, 80, 0.2);
+   gap: 40px;
+   display: flex;
+   width: fit-content;
+   height: 283px;
+   justify-content: space-between;
+}
+
+.facilities__item {
+   max-width: 300px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.facilities__range {
+   display: flex;
+   gap: 15px;
+   text-transform: uppercase;
+}
+
+.facilities__line {
+   width: 3px;
+   height: 100%;
+   background-color: #000;
+}
+
+.catalog {
+   max-width: 1918px;
+   height: 66px;
+   background-color: #FAFAFA;
+   margin: 15px;
+}
+
+.sofa {
+   font-family: Montserrat-SemiBold;
+   display: flex;
+   justify-content: center;
+   gap: 25px;
+
+
+}
+
+.sofa__item {
+   background-color: #FAFAFA;
+   max-width: 640px;
+   width: 100%;
+   height: 540px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+
+}
+
+.sofa__item__1__text {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+}
+
+.sofa__item__1__text>h3,
+p,
+button {
+   display: flex;
+   margin: 5px;
+   justify-content: center;
+   width: 100%;
+}
+
+.sofa__item__1__text>h3 {
+   font-size: 21px;
+
+}
+
+.sofa__item__1__text button {
+   background-color: #0ECCDD;
+   border: none;
+   max-width: 254px;
+   width: 100%;
+   height: 35px;
+   border-radius: 3px;
+   display: flex;
+   align-items: center;
+   color: white;
+   padding: 0px 20px;
+   font-size: 15px;
+   font-weight: 600;
+
+}
+
+.sofa__btn {
+   margin-left: 25%;
+}
+
+.Up {
+   text-transform: uppercase;
+}
+
+.Price {
+   font-size: 22px;
+}
+
+.separate {
+   max-width: 1918px;
+   height: 66px;
+   background-color: #FAFAFA;
+   margin: 15px;
+}
+
+.sofa__item__reverse {
+   background-color: #FAFAFA;
+   max-width: 640px;
+   width: 100%;
+   height: 540px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   order: 3;
+
+}
+
+.sofa__item__reverse img {
+   max-width: 400px;
+   width: 85%;
+   height: 240px;
+}
+
+.sofa__item__reverse img {
+   max-width: 450px;
+   width: 100%;
+}
+
+.reasons {
+   font-family: Montserrat-SemiBold;
+   max-width: 1918px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 66px;
+   margin-top: 5vh;
+   background-color: #FAFAFA;
+}
+
+.reasons>h2 {
+   text-transform: uppercase;
+}
+
+.reasons__items {
+   font-family: Montserrat-SemiBold;
+   display: flex;
+   justify-content: flex-start;
+}
+
+.reasons__text {
+   margin-left: 3%;
+
+}
+
+.reasons__text>p {
+   font-weight: 400;
+   font-size: 20px;
+}
+
+.circle {
+   margin-top: 1%;
+   width: 27px;
+   height: 27px;
+   border-radius: 50%;
+   background-color: #0ECCDD;
+}
+
+.map {
+   margin-top: 3%;
+   max-width: 1920px;
+   height: 530px;
+   width: 100%;
+}
+
+.contacts {
+   font-family: Montserrat-SemiBold;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #2D2D2D;
+   max-width: 1920px;
+   width: 100%;
+   height: 345px;
+}
+
+.contacts h3 {
+   text-transform: uppercase;
+   color: white;
+}
+
+.contacts__brand p {
+   color: white;
+   font-size: 23px;
+}
+
+.fon {
+   max-width: 850px;
+   width: 100%;
+   margin-right: 3%;
+   height: 580px;
+}
+
+.fon img {
+   height: 650px;
+
+}
+
+.end {
+   box-shadow: 0px 10px 100px gray;
+   background-color: grey;
+   max-width: 1850px;
+   height: 400px;
+   margin: 3%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: Montserrat-SemiBold;
+   margin-top: 5%;
+   font-family: Montserrat-SemiBold;
+}
+
+.end__telephone {
+   background-color: white;
+   max-width: 550px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   gap: 7px;
+   height: 200px;
+   border-radius: 10px;
+}
+
+.end__telephone h3 {
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.line_in_last_block {
+   height: 1px;
+   margin-bottom: 1%;
+   max-width: 550px;
+   width: 100%;
+   background-color: #BDBDBD;
+
+}
+
+.last_button {
+   background-color: yellow;
+   border-radius: 5px;
+   border: none;
+   max-width: 357px;
+   width: 100%;
+   height: 30px;
+   align-self: center;
+
+}
+
+.end__telephone input {
+   max-width: 300px;
+   font-size: 18px;
+   width: 100%;
+   height: 50px;
+   border-radius: 1px;
+   align-self: center;
+   outline: 1px solid gray;
+}
+
+
+.last_button p {
+   color: black;
+   font-weight: 600;
+   font-size: 17px;
+   text-transform: uppercase;
+   padding: auto;
+}
